@@ -1,6 +1,6 @@
 # web-ledger-context ChangeLog
 
-## 6.0.0 - TBD
+## 6.0.0 - 2019-11-12
 
 ### Added
 - **BREAKING**: Add new terms: `validatorParameterSet` and
