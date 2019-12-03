@@ -1,5 +1,10 @@
 # web-ledger-context ChangeLog
 
+## 7.0.0 - 2019-12-xx
+
+### Changed
+- **BREAKING**: Make `record` and `recordPatch` use JSON literals.
+
 ## 6.0.0 - 2019-11-12
 
 ### Added

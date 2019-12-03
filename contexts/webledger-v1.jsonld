@@ -5,7 +5,6 @@
     "type": "@type",
 
     "dc": "http://purl.org/dc/terms/",
-    "jldp": "https://w3id.org/json-ld-patch#",
     "sec": "https://w3id.org/security#",
     "wl": "https://w3id.org/webledger#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -92,20 +91,23 @@
       "@type": "@id",
       "@container": "@graph",
       "@context": {
-        "add": "jldp:add",
-        "copy": "jldp:copy",
-        "frame": {"@id": "jldp:from", "@type": "@id"},
-        "from": "jldp:from",
-        "move": "jldp:move",
-        "op": "jldp:op",
-        "patch": {"@id": "jldp:patch", "@type": "@id", "@container": "@set"},
-        "path": "jldp:path",
-        "remove": "jldp:remove",
-        "replace": "jldp:replace",
-        "target": {"@id": "jldp:target", "@type": "@id"},
-        "test": "jldp:test",
-        "sequence": {"@id": "jldp:sequence", "@type": "xsd:integer"},
-        "value": "jldp:value"
+        "frame": {
+          "@id": "https://w3id.org/json-ld-patch#frame",
+          "@type": "@json"
+        },
+        "patch": {
+          "@id": "https://w3id.org/json-ld-patch#patch",
+          "@type": "@json",
+          "@container": "@set"
+        },
+        "target": {
+          "@id": "https://w3id.org/json-ld-patch#target",
+          "@type": "@id"
+        },
+        "sequence": {
+          "@id": "https://w3id.org/json-ld-patch#sequence",
+          "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        }
       }
     },
     "previousBlock": "wl:previousBlock",
@@ -117,11 +119,14 @@
     "publicKey": {"@id": "sec:publicKey", "@type": "@id", "@container": "@set"},
     "publicKeyBase58": "sec:publicKeyBase58",
     "publicKeyPem": "sec:publicKeyPem",
-    "record": {"@id": "wl:record", "@type": "@id", "@container": "@graph"},
+    "record": {"@id": "wl:record", "@type": "@json"},
     "recommendedElector": {"@id": "wl:recommendedElector", "@container": "@set"},
     "requiredProof": "sec:requiredProof",
     "revoked": {"@id": "sec:revoked", "@type": "xsd:dateTime"},
-    "sequence": {"@id": "jldp:sequence", "@type": "xsd:integer"},
+    "sequence": {
+      "@id": "https://w3id.org/json-ld-patch#sequence",
+      "@type": "xsd:integer"
+    },
     "targetNode": {"@id": "wl:targetNode", "@type": "@id"},
     "treeHash": "wl:treeHash",
     "validatorFilter": {"@id": "wl:validatorFilter", "@type": "@id"},
