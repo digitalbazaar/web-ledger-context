@@ -36,6 +36,8 @@
     "WebLedgerEventBlock": "wl:WebLedgerEventBlock",
     "WebLedgerOperationEvent": "wl:WebLedgerOperationEvent",
     "WebLedgerRecord": "wl:WebLedgerRecord",
+    "Witness": "wl:Witness",
+    "WitnessPool": "wl:WitnessPool",
     "ValidatorFilterByType": "wl:ValidatorFilterByType",
     "ValidatorParameterSet": "wl:ValidationParameterSet",
 
@@ -43,8 +45,14 @@
     "approvedSigner": "wl:approvedSigner",
     "assertionMethod": {"@id": "sec:assertionMethod", "@type": "@id", "@container": "@set"},
     "authentication": {"@id": "sec:authenticationMethod", "@type": "@id", "@container": "@set"},
-    "basisBlockHeight": "wl:basisBlockHeight",
-    "blockHeight": "wl:blockHeight",
+    "basisBlockHeight": {
+      "@id": "wl:basisBlockHeight",
+      "@type": "xsd:integer"
+    },
+    "blockHeight": {
+      "@id": "wl:blockHeight",
+      "@type": "xsd:integer"
+    },
     "canonicalizationAlgorithm": "sec:canonicalizationAlgorithm",
     "capability": {"@id": "sec:capability", "@type": "@id"},
     "capabilityAction": "sec:capabilityAction",
@@ -79,6 +87,11 @@
     "maximumElectorCount": {"@id": "wl:maximumElectorCount", "@type": "xsd:integer"},
     "minimumProofsRequired": "sec:minimumProofsRequired",
     "minimumSignaturesRequired": "wl:minimumSignaturesRequired",
+    "maximumWitnessCount": {"@id": "wl:maximumWitnessCount", "@type": "xsd:integer"},
+    "mergeHeight": {
+      "@id": "wl:mergeHeight",
+      "@type": "xsd:integer"
+    },
     "nonce": "sec:nonce",
     "operation": {"@id": "wl:operation", "@type": "@id", "@container": ["@graph", "@set"]},
     "operationHash": {"@id": "wl:operationHash", "@container": "@set"},
@@ -133,6 +146,9 @@
     "validatorFilterByType": {"@id": "wl:validatorFilterType", "@type": "@vocab"},
     "validatorParameterSet": {"@id": "wl:validatorParameterSet", "@type": "@id"},
     "verificationMethod": {"@id": "sec:verificationMethod", "@type": "@id"},
-    "voter": {"@id": "wl:voter", "@type": "@id"}
+    "voter": {"@id": "wl:voter", "@type": "@id"},
+    "witness": {"@id": "wl:witness", "@type": "@id"},
+    "witnessSelectionMethod": {"@id": "wl:witnessSelectionMethod", "@type": "@id"},
+    "witnessPool": {"@id": "wl:witnessPool", "@type": "@id"}
   }
 }
