@@ -1,5 +1,14 @@
 # web-ledger-context ChangeLog
 
+## 8.0.0 - 2020-12-xx
+
+### Added
+- **BREAKING**: Add `witness` related terms and `mergeHeight`.
+
+### Changed
+- **BREAKING**: Make `blockHeight` and `basisBlockHeight` use
+  `xsd:integer`.
+
 ## 7.0.0 - 2019-12-03
 
 ### Changed
