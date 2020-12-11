@@ -1,6 +1,6 @@
 # web-ledger-context ChangeLog
 
-## 8.0.0 - 2020-12-xx
+## 8.0.0 - 2020-12-11
 
 ### Added
 - **BREAKING**: Add `witness` related terms and `mergeHeight`.
