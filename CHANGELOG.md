@@ -1,6 +1,6 @@
 # web-ledger-context ChangeLog
 
-## 9.0.0 - 2021-02-xx
+## 9.0.0 - 2021-02-15
 
 ### Added
 - **BREAKING**: Add `parentHashCommitment`.
