@@ -62,6 +62,7 @@
     "capabilityStatusList": {"@id": "sec:capabilityStatusList", "@type": "@id"},
     "caveat": {"@id": "sec:caveat", "@type": "@id", "@container": "@set"},
     "challenge": "sec:challenge",
+    "parentHashCommitment": {"@id": "wl:parentHashCommitment", "@container": "@set"},
     "consensusMethod": {"@id": "wl:consensusMethod", "@type": "@vocab"},
     "consensusProofHash": {"@id": "wl:consensusProofHash", "@container": "@set"},
     "controller": {"@id": "sec:controller", "@type": "@id"},
