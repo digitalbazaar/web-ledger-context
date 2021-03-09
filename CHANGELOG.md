@@ -1,6 +1,6 @@
 # web-ledger-context ChangeLog
 
-## 10.0.0 - 2021-03-xx
+## 10.0.0 - 2021-03-09
 
 ### Added
 - **BREAKING**: Add `peerCommitment`.
