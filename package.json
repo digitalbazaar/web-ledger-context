@@ -1,6 +1,6 @@
 {
   "name": "web-ledger-context",
-  "version": "9.0.1-0",
+  "version": "10.0.0",
   "description": "Web Ledger Context",
   "main": "js",
   "module": "./dist/module.js",
