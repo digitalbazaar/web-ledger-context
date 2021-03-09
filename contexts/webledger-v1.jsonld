@@ -62,7 +62,6 @@
     "capabilityStatusList": {"@id": "sec:capabilityStatusList", "@type": "@id"},
     "caveat": {"@id": "sec:caveat", "@type": "@id", "@container": "@set"},
     "challenge": "sec:challenge",
-    "parentHashCommitment": {"@id": "wl:parentHashCommitment", "@container": "@set"},
     "consensusMethod": {"@id": "wl:consensusMethod", "@type": "@vocab"},
     "consensusProofHash": {"@id": "wl:consensusProofHash", "@container": "@set"},
     "controller": {"@id": "sec:controller", "@type": "@id"},
@@ -100,6 +99,8 @@
     "owner": {"@id": "sec:owner", "@type": "@id"},
     "parentCapability": {"@id": "sec:parentCapability", "@type": "@id"},
     "parentHash": {"@id": "wl:parentHash", "@container": "@set"},
+    "parentHashCommitment": {"@id": "wl:parentHashCommitment", "@container": "@set"},
+    "peerCommitment": {"@id": "wl:peerCommitment", "@container": "@set"},
     "recordPatch": {
       "@id": "wl:recordPatch",
       "@type": "@id",
