@@ -1,6 +1,6 @@
 # web-ledger-context ChangeLog
 
-## 11.0.0 - 2021-07-xx
+## 11.0.0 - 2021-07-21
 
 ### Changed
 - Switch from using CURIEs to full URLs for @id.
