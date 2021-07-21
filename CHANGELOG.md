@@ -1,5 +1,31 @@
 # web-ledger-context ChangeLog
 
+## 11.0.0 - 2021-07-xx
+
+### Changed
+- Switch from using CURIEs to full URLs for @id.
+
+### Removed
+- Remove @version: 1.1.
+- **BREAKING**: Removed `Config`, `Continuity2017Elector`,
+  `Continuity2017GuarantorElector`, `Continuity2017Peer`,
+  `DeleteWebLedgerRecord`, `Ed25519Signature2018`, `Ed25519VerificationKey2018`,
+  `Elector`, `ElectorPool`, `EventTypeFilter`, `RecoveryElector`,
+  `RevocationCheck`, `RsaSignature2018`, `RsaVerificationKey2018`,
+  `SignatureValidator2017`, `SequentialList`, `UnilateralConsensus2017`,
+  `allowedAction`, `approvedSigner`, `assertionMethod`, `authentication`,
+  `canonicalizationAlgorithm`, `capability`, `capabilityAction`,
+  `capabilityChain`, `capabilityDelegation`, `capabilityInvocation`,
+  `capabilityStatusList`, `caveat`, `challenge`, `consensusMethod`,
+  `consensusProofHash`, `controller`, `created`, `creator`, `defaultElector`,
+  `delegator`, `digestAlgorithm`, `digestValue`, `domain`, `elector`,
+  `electorSelectionMethod`, `electorPool`, `expirationDate`, `invocationTarget`,
+  `invoker`, `jws`, `maximumElectorCount`, `minimumProofsRequired`,
+  `minimumSignaturesRequired`, `nonce`, `owner`, `proof`, `proofAlgorithm`,
+  `proofPurpose`, `proofValue`, `publicKey`, `publicKeyBase58`, `publicKeyPem`,
+  `recommendedElector`, `requiredProof`, `revoked`, `targetNode`,
+  `verificationMethod`, and more to clean up base web ledger context.
+
 ## 10.0.0 - 2021-03-09
 
 ### Added
