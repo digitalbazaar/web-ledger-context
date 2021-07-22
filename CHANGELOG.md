@@ -1,5 +1,11 @@
 # web-ledger-context ChangeLog
 
+## 12.0.0 - 2021-07-xx
+
+### Added
+- **BREAKING**: Added `creator`, `primaryWitnessCandidate`, and
+  `secondaryWitnessCandidate`
+
 ## 11.0.0 - 2021-07-21
 
 ### Changed

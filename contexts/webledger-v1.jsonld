@@ -35,6 +35,10 @@
       "@id": "https://w3id.org/webledger#consensusMethod",
       "@type": "@vocab"
     },
+    "creator":  {
+      "@id": "http://purl.org/dc/terms/creator",
+      "@type": "@id"
+    },
     "event": {
       "@id": "https://w3id.org/webledger#event",
       "@type": "@id",
@@ -89,6 +93,10 @@
       "@id": "https://w3id.org/webledger#peerCommitment",
       "@container": "@set"
     },
+    "primaryWitnessCandidate": {
+      "@id": "https://w3id.org/webledger#primaryWitnessCandidate",
+      "@container": "@set"
+    },
     "recordPatch": {
       "@id": "https://w3id.org/webledger#recordPatch",
       "@type": "@json"
@@ -98,6 +106,10 @@
     "record": {
       "@id": "https://w3id.org/webledger#record",
       "@type": "@json"
+    },
+    "secondaryWitnessCandidate": {
+      "@id": "https://w3id.org/webledger#primaryWitnessCandidate",
+      "@container": "@set"
     },
     "sequence": {
       "@id": "https://w3id.org/json-ld-patch#sequence",
